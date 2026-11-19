@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- Áp dụng 01 Template Bootstrap cho toàn bộ ứng dụng -->
+    <mapping path="/*" decorator="/WEB-INF/decorators/main.jsp"/>
+
+    <!-- Loại trừ tài nguyên tĩnh và thư mục decorator -->
+    <mapping path="/assets/*" exclude="true"/>
+    <mapping path="/uploads/*" exclude="true"/>
+    <mapping path="/WEB-INF/decorators/*" exclude="true"/>
+</sitemesh>
