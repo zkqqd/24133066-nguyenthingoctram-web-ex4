@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <dispatch-mode>include</dispatch-mode>
+
+    <decorator-prefix>/WEB-INF/decorators/</decorator-prefix>
+
+    <mapping path="/*" decorator="main.jsp" />
+    <mapping path="/WEB-INF/*" exclude="true" />
+    <mapping path="/uploads/*" exclude="true" />
+    <mapping path="/api/*" exclude="true" />
+    <mapping path="/assets/*" exclude="true" />
+</sitemesh>
